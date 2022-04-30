@@ -1,0 +1,71 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 58, 58);
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: rgb(235, 193, 116);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:1% 9%;
+}
+
+.logo{
+    height: 4em;
+    cursor: pointer;
+    margin-right: auto;
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+    margin: 0;
+}
+.links li a:hover{
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 1.5em;
+}
+a{
+    padding: 0px 20px;
+}
+form{
+    margin-right: auto;
+}
+input{
+    border: none;
+    width: 20em;
+    height: 1.3em;
+    font-family: 'Bebas Neue',cursive;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 12em;
+    text-indent: 1em;
+}
+::placeholder {
+    color: rgb(235, 193, 116);
+}
+svg {
+    color: rgb(235, 193, 116);
+    fill: currentColor;
+    width: 1.4em;
+}
+button{
+    background-color: transparent;
+    border: none;
+    padding: none;
+}
